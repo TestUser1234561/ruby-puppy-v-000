@@ -1,9 +1,11 @@
 class Dog
   @@all = Array.new
 
-  def clear_all
+  def self.clear_all
     @@all.clear
   end
 
-  
+  def self.all
+    
+  end
 end
